@@ -66,7 +66,7 @@ client = MongoClient('localhost', 27017)
 db = client.Heisman_database2
 collection = db.Heisman_collection2
 
-#This line filter Twitter Streams to capture data by the keywords: 'Heisman'
+#This line filters Twitter Streams to capture data with the keyword: 'Heisman'
 
 stream.filter(track=['Heisman'])
 
