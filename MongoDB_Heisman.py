@@ -26,7 +26,7 @@ consumer_secret = ""
 class StdOutListener(StreamListener):
     def on_data(self, testdata2):           
 
-#Retrieving the details like Id, tweeted text and created at.
+#Retrieving the details like Id, tweeted text, and created at.
 #        while (time.time() - self.time) < self.limit:
 #            try:
                 
